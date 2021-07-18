@@ -22,7 +22,7 @@ namespace Systems.Car
             
             if (Physics.Raycast(transform.position, -transform.up, out RaycastHit hit, 10, 1 >> LayerMask.NameToLayer("Default")))
             {
-                _bodyRigidbody.AddForceAtPosition(transform.forward * Input.GetAxis("Vertical") * baseSpeed, transform.position);
+                _bodyRigidbody.AddForceAtPosition(transform.forward * Input.GetAxis("Vertical") * baseSpeed, hit.point);
 
                 if (isSteer)
                 {
@@ -30,12 +30,12 @@ namespace Systems.Car
                     wheelTurnTransform.localRotation = transform.localRotation;
                 }
 
-                Vector3 locVel = transform.InverseTransformDirection(_bodyRigidbody.GetPointVelocity(transform.position));
+                Vector3 locVel = transform.InverseTransformDirection(_bodyRigidbody.GetPointVelocity(hit.point));
             
                 _bodyRigidbody.AddForceAtPosition(locVel.x * -transform.right, hit.point, ForceMode.Acceleration);
 
                 wheelMesh.transform.position = transform.position;
-                wheelMesh.Rotate(Vector3.right * _bodyRigidbody.GetPointVelocity(transform.position).magnitude);
+                wheelMesh.Rotate(Vector3.right * _bodyRigidbody.GetPointVelocity(hit.point).magnitude);
             }
         }
 

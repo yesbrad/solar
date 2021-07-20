@@ -10,5 +10,10 @@ namespace Systems.Character
         {
             Animator.SetFloat("Velocity", velocity.magnitude);
         }
+
+        public void BeginEvent(CharacterEvent characterEvent)
+        {
+             characterEvent.BeginEvent(this);
+        }
     }
 }

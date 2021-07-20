@@ -16,9 +16,22 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Car/CarController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Car/CarWheel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Interaction/IInteractable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Character/CharacterEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Car/Car.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Character/Character.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Interaction/InteractManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Car/CarWheel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Camera/DefaultCarCamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Camera/DefaultPlayerCamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Camera/BaseCamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Camera/CameraManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Cameras/BaseCamera.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Character/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Character/CarEnterEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Cameras/CameraManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Car/BaseCar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Character/Events/CarExitEvent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vUJuys7hgG7U7FpNwIadEGjid1" />
@@ -31,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -67,7 +80,7 @@
       <workItem from="1626610966601" duration="153000" />
       <workItem from="1626611185041" duration="5696000" />
       <workItem from="1626679266678" duration="7880000" />
-      <workItem from="1626776394767" duration="3826000" />
+      <workItem from="1626776394767" duration="8863000" />
     </task>
     <servers />
   </component>

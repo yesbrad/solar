@@ -25,7 +25,7 @@ namespace Systems.Character
         }
 
         private void Update()
-        {
+        {   
             _inputsRaw.x = Input.GetAxisRaw("Horizontal");
             _inputsRaw.z = Input.GetAxisRaw("Vertical");
 

@@ -10,23 +10,26 @@ namespace Systems.Car
         [SerializeField] private Transform wheelMesh;
         [SerializeField] private Transform wheelTurnTransform;
         private Rigidbody _bodyRigidbody;
+        
+        public float Acceleration { get; set; }
+        public float Steer { get; set; }
 
         private void Awake()
         {
             _bodyRigidbody = transform.root.GetComponent<Rigidbody>();
         }
 
-        private void FixedUpdate()
+        public void FixedUpdateWheels()
         {
             Debug.DrawRay(transform.position, -transform.up, Color.magenta);
             
             if (Physics.Raycast(transform.position, -transform.up, out RaycastHit hit, 10, 1 >> LayerMask.NameToLayer("Default")))
             {
-                _bodyRigidbody.AddForceAtPosition(transform.forward * Input.GetAxis("Vertical") * baseSpeed, hit.point);
+                _bodyRigidbody.AddForceAtPosition(transform.forward * Acceleration * baseSpeed, hit.point);
 
                 if (isSteer)
                 {
-                    transform.localRotation = Quaternion.Euler(0, steerAngle * Input.GetAxis("Horizontal"), 0);
+                    transform.localRotation = Quaternion.Euler(0, steerAngle * Steer, 0);
                     wheelTurnTransform.localRotation = transform.localRotation;
                 }
 

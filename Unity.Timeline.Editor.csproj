@@ -169,9 +169,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Window\TimelineWindow_TimeArea.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\AnimatedParameterCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\State\WindowState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\DirectorNamedColorInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\Scopes\GUIColorOverride.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\treeview\ItemGui\TimelineClipGUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\DirectorNamedColorInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\TrackAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\Range.cs" />
@@ -549,20 +549,8 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\IStreamControllerAPI.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\NumberHelpers.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\OneOrMore.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerInput.cs" />
@@ -343,7 +344,6 @@
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Remote\InputRemoting.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\TouchHistory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\IStreamControllerAPI.cs" />
      <None Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Unity.InputSystem.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -582,20 +582,8 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

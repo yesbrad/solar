@@ -74,8 +74,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\UIBlocks\HDShaderGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Hair\ShaderGraph\CreateHairShaderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\VolumetricLighting\SerializedDensityVolume.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\PackageInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\PostProcessing\ChromaticAberrationEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\PackageInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\MaterialHeaderScope.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Sky\HDLightingWindowEnvironmentSection.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Unlit\ShaderGraph\HDUnlitSubTarget.cs" />
@@ -167,8 +167,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\Reflection\SerializedHDReflectionProbe.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\ShaderGraph\HDStructFields.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Wizard\HDWizard.UIElement.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\UIBlocks\LitShaderGraphGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\StackLit\ShaderGraph\StackLitSubTarget.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\UIBlocks\LitShaderGraphGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\AdditionalShadowDataEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Decal\DecalMenuItems.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\PostProcessing\DepthOfFieldEditor.cs" />
@@ -188,9 +188,9 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\SceneTemplates\HDRPBasicDxrScenePipeline.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\Raytracing\GlobalIlluminationEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\CustomPass\CustomPassVolumeEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\Settings\SerializedXRSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\ShaderGraph\Legacy\DecalMasterNode1.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\Reflection\PlanarReflectionProbeEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\Settings\SerializedXRSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Eye\ShaderGraph\Node\EyeSurfaceTypeDebug.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\AssetProcessors\PhysicalMaterial3DsMaxPreprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\HDLightUI.Skin.cs" />
@@ -356,8 +356,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\StackLit\ShaderGraph\CreateStackLitShaderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\VirtualTexturingSettingsUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\Reflection\Volume\ProxyVolumeUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Lit\LitShaderPreprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\RenderPipeline\HDEditorCLI.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Material\Lit\LitShaderPreprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\Reflection\Volume\SerializedReflectionProxyVolumeComponent.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\Lighting\ProbeVolume\SerializedProbeVolume.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Editor\BuildProcessors\HDRPPreprocessBuild.cs" />
@@ -695,20 +695,8 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

@@ -207,8 +207,8 @@
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\UnityTestProtocol\IUtpMessageReporter.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\TestRunner\Utils\TestListCacheData.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\CommandLineTest\RunSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewDataSource.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\TestLaunchers\TestLauncherBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewDataSource.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\Api\TestRunnerApi.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\UnityTestProtocol\IUtpLogger.cs" />
      <None Include="Library\PackageCache\com.unity.test-framework@1.1.26\UnityEditor.TestRunner\UnityEditor.TestRunner.asmdef" />

@@ -233,8 +233,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\Raytracing\HDRaytracingManager.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Material\LTCAreaLight\LTCAreaLight.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\GlobalLowResolutionTransparencySettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\Raytracing\HDRaytracingAmbientOcclusion.RenderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\Settings\FrameSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\Raytracing\HDRaytracingAmbientOcclusion.RenderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\SphericalHarmonics.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\Reflection\HDAdditionalReflectionData.Migration.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Debug\RayCountManager.cs" />
@@ -329,8 +329,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\PostProcessing\PostProcessSystem.RenderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\HDRenderPipeline.LookDev.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\RenderPipeline\RenderPass\AOV\AOVRequestDataCollection.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\Light\HDAdditionalLightData.Types.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\Reflection\PlanarReflectionProbe.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\Light\HDAdditionalLightData.Types.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\Light\HDAdditionalLightData.Migration.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\Lighting\ScreenSpaceLighting\ShaderVariablesAmbientOcclusion.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.5.0\Runtime\PostProcessing\Components\ShadowsMidtonesHighlights.cs" />
@@ -1002,20 +1002,8 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>/Users/snowpea/dev/solar/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
